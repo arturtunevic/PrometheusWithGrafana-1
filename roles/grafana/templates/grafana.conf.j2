@@ -29,7 +29,7 @@
 #################################### Server ####################################
 [server]
 # Protocol (http, https, socket)
-;protocol = https
+;protocol = http
 
 # The ip address to bind to, empty will bind to all interfaces
 ;http_addr =
@@ -46,7 +46,7 @@
 
 # The full public facing url you use in browser, used for redirects and emails
 # If you use reverse proxy and sub path specify full url (with sub path)
-;root_url = https://localhost:3000
+;root_url = http://localhost:3000
 
 # Log web requests
 ;router_logging = false
@@ -58,8 +58,8 @@
 ;enable_gzip = false
 
 # https certs & key file
-;cert_file = /etc/grafana/localhost.crt
-;cert_key = /etc/grafana/localhost.key
+;cert_file =
+;cert_key = 
 
 # Unix socket path
 ;socket =
